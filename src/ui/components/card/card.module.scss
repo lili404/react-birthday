@@ -1,0 +1,22 @@
+.image {
+  min-width: 8rem;
+  object-fit: cover;
+}
+
+.text {
+  h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 1rem;
+    color: #303030;
+  }
+
+  span {
+    font-size: 0.75rem;
+    font-style: italic;
+    color: #606060;
+  }
+}
