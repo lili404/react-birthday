@@ -14,7 +14,7 @@ const List = ({type}) => {
     <Flex className={styles.list} gap="large" vertical>
       {data.length > 0 && (
         <h2>
-          День народження {type === 'student' ? 'студентів' : 'співробітників'}
+          День народження {type === 'students' ? 'студентів' : 'співробітників'}
         </h2>
       )}
 
